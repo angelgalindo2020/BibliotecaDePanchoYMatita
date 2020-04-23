@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/EstiloHTML.css">
+    <style type="text/css">
+        .Regresar {
+            text-decoration: none;
+            padding: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: #1883ba;
+            border-radius: 6px;
+            border: 2px solid #0016b0;
+        }
+        
+        .Regresar {
+            color: #1883ba;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="TablaLibros.html" class="Regresar">
+        < Regresar</a>
+            <center>
+                <div class="Cont1">
+                    <form action="Registro.php" method="POST">
+                        <h1>Formulario De Alta De Libros</h1>
+                        Nombre Del Libro: <input type="text" name="NombreLibro" value=""><br><br> Editorial:
+                        <input type="text" name="Editorial"><br><br> Autor:
+                        <input type="text" name="Autor"> <br> <br>Genero: <input type="text" name="Genero" value=""> <br><br> Pais Del Autor: <input type="text" name="PaisAutor" value=""><br><br> Numero De Paginas:
+                        <input type="number" name="NumPaginas"><br><br> Año De Edicion: <input type="number" name="AnioEdicion" min="1900" max="2020" step="1" value=""> <br><br> Precio: <input type="number" name="Precio"><br><br>
+                        <input type="submit" name="enviar" value="Registrar" style="text-decoration: none;
+                        padding: 10px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        color: #ffffff;
+                        background-color: #ffffff;
+                        border-radius: 6px;
+                        border: 2px solid red;
+                        color: #cc4040;
+                        background-color: #ffffff">
+                    </form>
+                </div>
+            </center>
+</body>
+
+</html>
