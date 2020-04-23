@@ -25,7 +25,7 @@
 <body>
     <a href="TablaLibros.html" class="Regresar"> < Regresar</a>
 <?php
-$servidor= "localhost";
+$servidor= "127.0.0.1";
 $usuario = "Pancho";
 $password = "";
 $bd= "biblioteca";
