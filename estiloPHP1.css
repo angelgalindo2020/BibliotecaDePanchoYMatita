@@ -1,0 +1,18 @@
+body {
+    background-image: url("Libros.jpg");
+}
+
+.libros {
+    background-color: seashell;
+    width: 1100px;
+    height: 700px;
+}
+
+table {
+    font-family: "Arial";
+    text-align: center;
+}
+
+h1 {
+    font-family: "EleganTech™";
+}

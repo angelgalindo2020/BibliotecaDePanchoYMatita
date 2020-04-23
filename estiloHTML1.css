@@ -1,0 +1,25 @@
+body {
+    background-image: url("Libro.jpg");
+    font-family: "Acre Medium";
+}
+
+.Cont {
+    text-align: center;
+    background-color: seashell;
+    width: 500px;
+    height: 300px;
+}
+
+.Cont1 {
+    text-align: center;
+    background-color: seashell;
+    width: 500px;
+    height: 500px;
+}
+
+.Cont2 {
+    text-align: center;
+    background-color: seashell;
+    width: 500px;
+    height: 200px;
+}
